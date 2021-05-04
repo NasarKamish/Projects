@@ -38,6 +38,16 @@ img {
   padding: 5% 30%;
 }
 
+button {
+  transition: background-color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
 .project {
   overflow: hidden;
   background: rgba(255, 255, 255, 0.25);
